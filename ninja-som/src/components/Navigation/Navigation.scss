@@ -1,0 +1,161 @@
+nav{
+  background-color: #041E50;
+  width: 100%;
+  height: 35px;
+  padding-top: 0.5rem;
+
+  .ctnNav {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+  
+    list-style: none;
+    
+    margin: 0 auto;
+    padding: 2px;
+
+    color: #FFFFFF;
+    font-size: 0.5rem;
+
+    li{
+      width: 100%;
+      border-radius: 1px;
+      border-right: 1px solid #FFFFFF;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img{
+        padding-right: 1rem;
+      }
+    }
+    li:last-child{
+      border: none;
+    }
+  }
+}
+
+.mainNav{
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px;
+
+  .centerNav{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    .ctnLogo{
+      margin-right: 15px;
+      cursor: pointer;
+    }
+
+    .divSearch{
+      margin: 1.6rem;
+
+      .inputSearch{
+        width: 339px;
+        height: 41px;
+
+        padding-left: 15px;
+
+        background-image: url('../../images/search.png');
+        background-position: 315px 10px;
+        background-repeat: no-repeat;
+
+        border-radius: 6px;
+        border: 1.8px solid #707070;
+      }
+    }
+
+    .ctnWhatsApp{
+      display: flex;
+      flex-direction: row;
+
+      width: 150px;
+      align-items: center;
+      margin-left: 15px;
+
+      p {
+        padding-left: 5px;
+
+        color:#041E50;
+        font-size: 0.95rem;
+        font-weight: 600;
+      }
+    }
+
+    .ctnPerson{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      cursor: pointer;
+
+      width: 170px;
+      margin-left: 25px;
+
+      .textAcount{
+        margin: 7px;
+
+        p {
+          color:#041E50;
+          font-size: 0.95rem;
+          font-weight: 600;
+        }
+        p:last-child {
+          font-size: 0.7rem;
+        }
+      }
+    }
+
+    .ctnCommerce {
+      cursor: pointer;
+      background-color: #041E50;
+      color: #FFFFFF;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+
+      height: 130px;
+      padding: 10px;
+
+      position: fixed;
+      right: 260px;
+      top: 42px;
+
+      p{
+        text-align: center;
+        font-size: 0.7rem;
+        font-weight: 500;
+      }
+      p:last-child {
+        font-size: 0.65rem;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.ctnMenu{
+  width: 80%;
+  margin: 0 auto;
+
+  .ctnOptions {
+    display: flex;
+    flex-direction: row;
+
+    list-style: none;
+    margin: 1rem;
+
+    li{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
