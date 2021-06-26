@@ -1,0 +1,19 @@
+.ctnVitrine {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4rem;
+
+  .ctnVitrineItems {
+    flex: 1 0 21%;
+    margin: 5px;
+    height: 350px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}

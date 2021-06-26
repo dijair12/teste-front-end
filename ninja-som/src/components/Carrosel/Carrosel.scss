@@ -1,0 +1,109 @@
+.ctnCarrosel{
+  width: 100%;
+
+  .lsCarrosel{
+    position: relative;
+
+    .slide {
+      opacity: 0;
+      transition-duration: 1s ease;
+    }
+      
+    .slide.active {
+        opacity: 1;
+    }
+
+    .ctnProximo{
+      position: absolute;
+      top: 250px;
+      right: 60px;
+      
+
+      text-decoration: none;
+      background-color: transparent;
+      border: none;
+
+      cursor: pointer;
+      height: 180px;
+    }
+    .ctnAnterior{
+      position: absolute;
+      top: 250px;
+      left: 40px;
+      z-index: 1;
+      
+      text-decoration: none;
+      background-color: transparent;
+      border: none;
+
+      cursor: pointer;
+      height: 180px;
+    }
+
+    img{
+      width: 100vw;
+      max-width: 100%;
+      height: 690px;
+    }
+
+    .ctnContentText1 {
+      position: absolute;
+      top: 250px;
+      right: 400px;
+      
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h3{
+        color: #FFFFFF;
+        letter-spacing: 0.54rem;
+        font-weight: 400;
+        margin: 1rem;
+      }
+
+      h1{
+        color: #FFFFFF;
+        letter-spacing: 0.12rem;
+        font-size: 3rem;
+      }
+
+      h2{
+        color: #FFFFFF;
+        letter-spacing: 0.13rem;
+        font-size: 3rem;
+        font-weight: 400;
+      }
+
+      .ctnContenText2 {
+        padding: 1rem;
+
+        h5 {
+          color: #FFFFFF;
+          padding: 0.5rem 0rem 0.5rem 0rem;
+          letter-spacing: 0.1rem;
+          font-weight: 500;
+          font-size: 0.8rem;
+
+          cursor: pointer;
+        }
+        .ctnLineText2{
+          border: '1px solid white';
+          border-radius: 12px;
+          background-color: #FFFFFF;
+        }
+      }
+    }
+
+
+
+    .Hover:hover{
+      background-color: #ffffff6e;
+    }
+
+  }
+  
+}
