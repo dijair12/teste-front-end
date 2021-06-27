@@ -1,0 +1,57 @@
+.ctnModal {
+  width: 100%;
+  height: 100vh;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  background-color: rgba(0,0,0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .ctnContent{
+    background-color: #FFFFFF;
+    color: #041E50;
+    width: 60%;
+    height: 60%;
+
+    border-radius: 20px;
+
+    .ctnClose {
+      background-color: transparent;
+      border: none;
+      outline: none;
+
+      display: flex;
+      align-items: center;
+
+      position: relative;
+      top: 16px;
+      right: calc(-100% + 64px);
+
+      width: 32px;
+      height: 32px;
+
+      cursor: pointer;
+
+      &:before,
+      &:after {
+        content: '';
+        position: absolute;
+        width: 2.5px;
+        height: 24px;
+        background-color: #707070;
+      }
+      &:before {
+        transform: rotate(45deg);
+      }
+      &:after{
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}

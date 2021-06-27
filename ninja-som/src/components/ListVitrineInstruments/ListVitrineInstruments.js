@@ -17,7 +17,6 @@ export default function ListVitrineInstruments() {
       })
   })
 
-
   return (
     <div>
       <div className="ctnTitle">
