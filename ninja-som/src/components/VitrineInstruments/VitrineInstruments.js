@@ -9,16 +9,12 @@ export default function VitrineInstruments({
   price
 }) {
   return (
-    <div>
-      <div className="ctnVitrine">
-
-        <div className="ctnVitrineItems">
-          <img src={photo} alt={photo} />
-          <h4>{productName}</h4>
-          <h5>{descriptionShort}</h5>
-          <h3>{price}</h3>
-        </div>
-
+    <div className="ctnVitrineItems">
+      <img src={photo} alt={photo} />
+      <div>
+        <h4 className="ctnText">{productName}</h4>
+        <h5 className="ctnText">{descriptionShort}</h5>
+        <h3 className="ctnText">R$ {price}</h3>
       </div>
     </div>
   )

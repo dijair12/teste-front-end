@@ -1,0 +1,47 @@
+.ctnTitle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  text-align: center;
+  color: #041E50;
+
+  margin: 3rem;
+
+  h2 {
+    font-weight: 400;
+  }
+  h4 {
+    padding: 1rem;
+    font-weight: 400;
+  }
+}
+
+.ctnVitrine {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%
+
+}
+.ctnButton {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  margin: 2rem;
+  button {
+    background-color: #FFFFFF; /* Green */
+    border: 1px solid #041E50;
+    border-radius: 8px;
+    color: #041E50;
+  
+    padding: 15px 32px;
+
+    cursor: pointer;
+  }
+}
