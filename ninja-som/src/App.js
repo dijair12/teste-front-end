@@ -2,8 +2,9 @@ import { CarroselData } from './components/Carrosel/CarroselData';
 
 import Navigation from './components/Navigation/Navigation.js';
 import Carrosel from './components/Carrosel/Carrosel.js';
-import ListVitrineInstruments from './components/ListVitrineInstruments/ListVitrineInstruments.js';
 import ListOptionSound from './components/ListOptionSound/ListOptionSound.js';
+import DoubleNews from './components/DoubleNews/DoubleNews.js';
+import ListVitrineInstruments from './components/ListVitrineInstruments/ListVitrineInstruments.js';
 
 
 import './global.scss';
@@ -18,10 +19,9 @@ function App() {
       <main>
         <Carrosel slides={CarroselData} />
         <ListOptionSound />
+        <DoubleNews />
         <ListVitrineInstruments />
         {/*
-          <DoubleNews />
-          <VitrineInstruments />
           <AboutAndBrands />
         </main>
         <footer>

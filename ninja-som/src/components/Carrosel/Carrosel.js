@@ -27,12 +27,12 @@ export default function Carrosel({ slides }) {
     <div className="ctnCarrosel">
       <div className="lsCarrosel">
 
-        <button className="ctnAnterior Hover" type="button">
-          <img src={Anterior} alt={Anterior} onClick={prevSlide} style={{ width: '34px', height: '69px' }} />
+        <button className="ctnAnterior Hover" onClick={prevSlide} type="button">
+          <img src={Anterior} alt={Anterior} style={{ width: '34px', height: '69px' }} />
         </button>
 
-        <button className="ctnProximo Hover" type="button">
-          <img src={Proxima} alt={Proxima} onClick={nextSlide} style={{ width: '34px', height: '69px' }} />
+        <button className="ctnProximo Hover" onClick={nextSlide} type="button">
+          <img src={Proxima} alt={Proxima} style={{ width: '34px', height: '69px' }} />
         </button>
 
         {CarroselData.map((slide, index) => {

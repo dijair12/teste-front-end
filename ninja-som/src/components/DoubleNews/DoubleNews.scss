@@ -1,0 +1,56 @@
+.ctnDoubleNews {
+  display: flex;
+  flex-direction: row;
+
+  .ctnTwoContent {
+    width: 100%;
+    height: 25rem;
+
+    img {
+      width: 100%;
+      height: 385px;
+    }
+
+    .ctnText {
+      position: relative;
+      bottom: 400px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      width: 50%;
+      height: 100%;
+      margin: 0 auto;
+
+      color: #FFFFFF;
+
+      padding: 1rem;
+
+      p {
+        margin-bottom: 20px;
+        letter-spacing: 0.2rem;
+        font-size: 0.87rem;
+      }
+
+      h1{
+        font-weight: 400;
+        letter-spacing: 0.2rem;
+      }
+
+      button {
+        background-color: #ffffff00; 
+        border: 1px solid #FFFFFF;
+        border-radius: 8px;
+        color: #FFFFFF;
+      
+        padding: 15px 32px;
+        margin-top: 2rem;
+    
+        cursor: pointer;
+
+      }
+    }
+  }
+}
