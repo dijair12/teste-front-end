@@ -7,7 +7,7 @@ Website para pesquisa de instrumentos musicais e compra do produto.
 ```bash
 # Abra o terminal e copie este repositório com o comando
 
-git clone https: https://github.com/dijair12/teste-front-end.git
+git clone https://github.com/dijair12/teste-front-end.git
 # ou use a opção de download.
 
 # Entre na pasta com 
