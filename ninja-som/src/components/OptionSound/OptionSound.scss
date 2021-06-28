@@ -1,16 +1,21 @@
 .ctnImages {
 
   margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   img {
-    width: 156px;
-    height: 156px;
+    width: 7rem;
+    height: 7rem;
+
+    h3 {
+      text-align: center;
+      padding: 1rem;
+      color: #041E50;
+      font-size: 1rem;
+    }
   }
 
-  h3 {
-    text-align: center;
-    padding: 1rem;
-    color: #041E50;
-    font-size: 1rem;
-  }
 }
