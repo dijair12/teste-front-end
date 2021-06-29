@@ -1,108 +1,110 @@
 .ctnVitrineItems {
-    flex: 1 0 15%;
-    margin: 1rem;
-    padding: 1rem;
-    height: 350px;
+  flex: 1 0 15%;
+  margin: 1rem;
+  padding: 1rem;
+  height: 350px;
 
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+    -webkit-box-shadow: 0px 3px 15px -1px rgba(0, 0, 0, 0.67);
+    box-shadow: 0px 3px 15px -1px rgba(0, 0, 0, 0.67);
+    border-radius: 12px;
+    opacity: 0.5;
+  }
+
+  &:hover:before {
+    width: 50px;
+    height: 50px;
+    border: 50px;
+    content: url('../../images/search.png');
+    position: relative;
+    text-align: center;
+    top: 200px;
+  }
+
+  div {
+    color: #041E50;
+    text-align: center;
+    padding: 1rem;
+
+    .ctnText {
+      padding: 0.4rem;
+    }
+
+    h5 {
+      font-weight: 500;
+    }
+
+  }
+
+}
+
+.ctnModalContent {
+  display: flex;
+
+  flex-direction: row;
+
+  div {
+    width: 50%;
+    height: 50vh;
+    max-height: 50vh;
+
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     flex-direction: column;
 
-    &:hover {
-      -webkit-box-shadow: 0px 3px 15px -1px rgba(0,0,0,0.67); 
-      box-shadow: 0px 3px 15px -1px rgba(0,0,0,0.67); 
-      border-radius: 12px;
-      opacity: 0.5;
+    img {
+      width: 320px;
+      height: 210px;
     }
 
-    &:hover:before {
-      width: 50px;
-      height: 50px;
-      border: 50px;
-      content: url('../../images/search.png');
-      position: relative;
-      text-align: center;
-      top: 200px;
-    }
-
-    div {
-      color: #041E50;
-      text-align: center;
+    .ctnText {
+      width: 80%;
+      text-align: left;
       padding: 1rem;
-
-      .ctnText {
-        padding: 0.4rem;
-      }
-
-      h5 {
-        font-weight: 500;
-      }
-
     }
-   
-  }
 
-  .ctnModalContent{
-    display: flex;
+    h4 {
+      font-weight: 500;
+      font-size: 2rem;
+    }
 
-    flex-direction: row;
+    h3 {
+      font-weight: 700;
+      font-size: 2rem;
+    }
 
-    div{
-      width: 50%;
-      height: 50vh;
+    h5 {
+      font-weight: 500;
+      font-size: 1rem;
+      color: #575656;
+    }
+
+    a {
+      font-weight: 600;
+      font-size: 1rem;
+      color: #041E50;
+    }
+
+    button {
+      background-color: #041E50;
+      /* Green */
+      border: 1px solid #FFFFFF;
+      border-radius: 8px;
+      color: #FFFFFF;
+
+      padding: 15px 32px;
+
+      cursor: pointer;
 
       display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-
-      img{
-        width: 430px;
-        height: 320px;
-      }
-
-      .ctnText {
-        width: 80%;
-        text-align: left;
-        padding: 1rem;
-      }
-
-      h4 {
-        font-weight: 500;
-        font-size: 2rem;
-      }
-
-      h3 {
-        font-weight: 700;
-        font-size: 2rem;
-      }
-
-      h5 {
-        font-weight: 500;
-        font-size: 1rem;
-        color: #575656;
-      }
-      
-      a{
-        font-weight: 600;
-        font-size: 1rem;
-        color: #041E50;
-      }
-
-      button {
-        background-color: #041E50; /* Green */
-        border: 1px solid #FFFFFF;
-        border-radius: 8px;
-        color: #FFFFFF;
-      
-        padding: 15px 32px;
-    
-        cursor: pointer;
-
-        display: flex;
-        align-self: flex-start;
-        margin-left: 3rem;
-      }
+      align-self: flex-start;
+      margin-left: 3rem;
     }
   }
+}

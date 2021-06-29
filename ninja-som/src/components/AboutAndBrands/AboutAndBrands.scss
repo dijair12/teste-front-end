@@ -1,0 +1,98 @@
+.ctnTextTitle {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  margin: 10rem 1rem 1rem 1rem;
+
+  h2 {
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    padding: 0.5rem;
+    color: #041E50;
+  }
+
+  h4 {
+    font-weight: 400;
+    color: #A5A5A5;
+    padding: 1rem;
+  }
+}
+
+.ctnBrands {
+  position: relative;
+  margin: 8rem 0rem;
+  top: 20px;
+
+  img {
+    width: 22px;
+    height: 32px;
+  }
+
+  .ctnProximo {
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+  }
+
+  .ctnAnterior {
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+  }
+
+  .ctnBrandsImage {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+
+    margin: 2rem;
+
+    img {
+      width: 171px;
+      height: 28px;
+    }
+  }
+
+}
+
+.ctnContent {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  margin: 5rem 4rem;
+  color: #041E50;
+
+  p {
+    padding: 2rem;
+    text-align: center;
+  }
+}
