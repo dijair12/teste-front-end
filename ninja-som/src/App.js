@@ -6,6 +6,7 @@ import ListOptionSound from './components/ListOptionSound/ListOptionSound.js';
 import DoubleNews from './components/DoubleNews/DoubleNews.js';
 import ListVitrineInstruments from './components/ListVitrineInstruments/ListVitrineInstruments.js';
 import AboutAndBrands from './components/AboutAndBrands/AboutAndBrands.js';
+import Footers from './components/Footers/Footers.js';
 
 
 import './global.scss';
@@ -23,12 +24,10 @@ function App() {
         <DoubleNews />
         <ListVitrineInstruments />
         <AboutAndBrands />
-        {/*
-        </main>
-        <footer>
-          <Footers />
-        </footer> */}
       </main>
+      <footer>
+        <Footers />
+      </footer>
     </div>
   );
 }
