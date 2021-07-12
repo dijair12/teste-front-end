@@ -1,0 +1,154 @@
+.ctnFooter {
+
+  background-color: #041E50;
+
+  .ctnReports {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    -webkit-box-shadow: -1px -1px 11px -3px rgba(0, 0, 0, 0.72);
+    box-shadow: -1px -1px 11px -3px rgba(0, 0, 0, 0.72);
+
+    padding: 2rem;
+    max-width: 60%;
+    margin: 0 auto;
+
+    background: #F7F7F7;
+    border-radius: 8px;
+
+    position: relative;
+    bottom: 100px;
+
+    @media (max-width: 1280px) {
+      max-width: 80%;
+    }
+
+    .ctnReportsContent {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 1rem;
+
+      @media (max-width: 1280px) {
+        flex: 1 1 10%;
+      }
+
+      h5,
+      h6 {
+        color: #041E50;
+      }
+    }
+
+    .ctnReportsText {
+      -webkit-box-shadow: -1px -1px 11px -3px rgba(0, 0, 0, 0.72);
+      box-shadow: -1px -1px 11px -3px rgba(0, 0, 0, 0.72);
+
+      background-color: #FFFFFF;
+      padding: 1.2rem;
+      border-radius: 8px;
+
+      p {
+        font-size: 0.9rem;
+        color: #2F2F2F;
+      }
+    }
+
+  }
+
+
+  .ctnContentInformation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 1rem;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    max-width: 100%;
+
+    height: 300px;
+
+    .ctnContentInformationColumn {
+      width: 21vw;
+
+      .ctnImagesSocial {
+        padding: 0.1rem;
+
+        img {
+          margin: 1rem 1.4rem 1rem 0rem;
+        }
+      }
+
+      .ctnImagesPayment {
+        img {
+          width: 35px;
+          height: 25px;
+          padding: 0.2rem;
+        }
+      }
+
+      .ctnImagesKey {
+        img {
+          width: 73px;
+          height: 40px;
+          padding: 0.2rem;
+        }
+      }
+
+      .ctnContentTextColumn {
+        h3 {
+          font-weight: 400;
+          font-size: 0.9rem;
+          padding-bottom: 0.3rem;
+
+        }
+
+        h3:first-child {
+          font-weight: 700;
+          font-size: 1rem;
+          padding-bottom: 1rem;
+          padding-top: 1rem;
+        }
+      }
+    }
+
+    .ctnContentNewsLetter {
+      background-color: #FFFFFF;
+      color: #041E50;
+      height: 200px;
+      padding: 2rem;
+      border-radius: 8px;
+
+      display: flex;
+      flex-direction: column;
+
+      h3 {
+        font-weight: 500;
+      }
+
+      .ctnPostText {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        h3 {
+          padding-left: 0.9rem;
+          padding-bottom: 1rem;
+          padding-top: 1rem;
+        }
+      }
+
+      button {
+        background-color: #FFFFFF;
+        border: 1px solid #041E50;
+        border-radius: 8px;
+        color: #041E50;
+
+        padding: 10px 28px;
+        margin-top: 0rem;
+
+        cursor: pointer;
+      }
+    }
+  }
+}

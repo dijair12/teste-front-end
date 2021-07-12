@@ -8,12 +8,12 @@
   right: 0;
   z-index: 100;
 
-  background-color: rgba(0,0,0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
 
-  .ctnContent{
+  .ctnContent {
     background-color: #FFFFFF;
     color: #041E50;
     width: 60%;
@@ -21,36 +21,40 @@
 
     border-radius: 20px;
 
-    .ctnClose {
-      background-color: transparent;
-      border: none;
-      outline: none;
-
+    .ctnButtonClose {
       display: flex;
       align-items: center;
+      justify-content: flex-end;
+      width: 100%;
 
-      position: relative;
-      top: 16px;
-      right: calc(-100% + 64px);
+      .ctnClose {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 5%;
+        padding-right: 4rem;
+        height: 32px;
+        cursor: pointer;
 
-      width: 32px;
-      height: 32px;
+        &:before,
+        &:after {
+          content: '';
+          position: absolute;
+          width: 2.5px;
+          height: 24px;
+          background-color: #707070;
+        }
 
-      cursor: pointer;
+        &:before {
+          transform: rotate(45deg);
+        }
 
-      &:before,
-      &:after {
-        content: '';
-        position: absolute;
-        width: 2.5px;
-        height: 24px;
-        background-color: #707070;
-      }
-      &:before {
-        transform: rotate(45deg);
-      }
-      &:after{
-        transform: rotate(-45deg);
+        &:after {
+          transform: rotate(-45deg);
+        }
       }
     }
   }
